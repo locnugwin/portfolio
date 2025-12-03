@@ -27,7 +27,7 @@
                         <PhGithubLogo :size="56" />
                     </a>
                     <a
-                        href="../public/LocNguyenResume.pdf"
+                        href="/LocNguyenResume.pdf"
                         target="_blank"
                         aria-label="Open Resume (opens in new tab)"
                         class="hover:text-neutral-800"
