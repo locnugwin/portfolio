@@ -14,7 +14,7 @@
                         href="https://www.linkedin.com/in/locnugwin/" 
                         target="_blank" 
                         aria-label="Open Loc's LinkedIn (opens in new tab)"
-                        class="hover:text-neutral-800"
+                        class="hover:text-neutral-800 transition-transform duration-200 motion-safe:hover:scale-105"
                     >
                         <PhLinkedinLogo :size="56" />
                     </a>
@@ -22,7 +22,7 @@
                         href="https://github.com/locnugwin" 
                         target="_blank" 
                         aria-label="Open Loc's GitHub (opens in new tab)"
-                        class="hover:text-neutral-800"
+                        class="hover:text-neutral-800 transition-transform duration-200 motion-safe:hover:scale-105"
                     >
                         <PhGithubLogo :size="56" />
                     </a>
@@ -30,14 +30,14 @@
                         href="/LocNguyenResume.pdf"
                         target="_blank"
                         aria-label="Open Resume (opens in new tab)"
-                        class="hover:text-neutral-800"
+                        class="hover:text-neutral-800 transition-transform duration-200 motion-safe:hover:scale-105"
                     >
                         <PhReadCvLogo :size="56" />
                     </a>
                     <a
                         href="mailto:loc@nugwin.net"
                         aria-label="Send an email to Loc Nguyen"
-                        class="hover:text-neutral-800"
+                        class="hover:text-neutral-800 transition-transform duration-200 motion-safe:hover:scale-105"
                     >
                         <PhEnvelopeSimple :size="56" />
                     </a>
