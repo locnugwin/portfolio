@@ -5,7 +5,7 @@
 
 <template>
     <div class="min-h-screen flex items-center justify-center px-4">
-        <div class="flex items-center gap-12 max-w-6xl w-full">
+        <div class="flex items-center max-w-6xl w-full">
             <div class="flex flex-col gap-4">
                 <h1 class="text-7xl font-bold text-neutral-900">Hi, I'm Loc.</h1>
                 <p class="text-lg text-neutral-600 leading-relaxed">Striving to create accessible web applications with an interest in writing clean, reusable, and scalable code.</p>
