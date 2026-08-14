@@ -36,31 +36,6 @@
   border-radius: 4px;
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  height: 2.25rem;
-  padding-inline: 1.125rem;
-  border-radius: 4px;
-  background: var(--color-button-background);
-  color: var(--color-button-text);
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1;
-  text-decoration: none;
-}
-
-.button:hover {
-  background: var(--color-button-background-hover);
-  color: var(--color-button-text);
-}
-
 @media (width <= 680px) {
   .intro {
     grid-template-columns: 1fr;
