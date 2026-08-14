@@ -14,7 +14,7 @@
 
 <style scoped>
 header {
-    border-bottom: 1px solid var(--rule-color);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .nav {
@@ -56,6 +56,7 @@ header {
     opacity: 1;
     font-weight: 700;
     text-decoration: underline;
+    text-decoration-color: currentColor;
     text-underline-offset: 0.35em;
 }
 </style>
