@@ -14,8 +14,18 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   css: ['~/assets/css/main.css'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/fonts']
+  modules: ['@nuxt/fonts', "nitro-cloudflare-dev"],
+
+  nitro: {
+    preset: "cloudflare_module",
+
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true
+    }
+  }
 })
