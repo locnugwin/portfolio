@@ -7,6 +7,12 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        name: 'Ari',
+        githubUrl: 'https://github.com/anton-3/ari',
+        dates: 'October 2026',
+        description: 'Ari is an AI-powered security engineer never sleeps. Ari watches your infastructure 24/7, detects threats, and automatically remediates them before they can cause damage. Ari was the winner of the Akamai challenge and received the Best in Show award at Hack Midwest 2026.'
+    },
+    {
         name: 'ProofWrite',
         githubUrl: 'https://github.com/anton-3/proofwrite',
         dates: 'October 2025',
